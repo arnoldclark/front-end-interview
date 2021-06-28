@@ -2,6 +2,8 @@
 
 Thanks for taking part in our mob programming session! This session should last between 60 - 90 minutes.
 
+**Please don't write any code before the mob session. We value your time and this startpoint is being provided to take away the element of surprise from the session.**
+
 ## The aims of this session
 
 This session is intended to help us understand how you would approach a very common problem.
