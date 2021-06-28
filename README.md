@@ -18,7 +18,7 @@ This session is run as a [mob programming session](https://en.wikipedia.org/wiki
 To run this app:
 
 - First, run `npm install`
-- Then, start the API buy running `npm run start:api`
+- Then, start the API by running `npm run start:api`
 - You can then start the app by running `npm start` and visiting [localhost:1234](http://localhost:1234).
 
 ## Resources
