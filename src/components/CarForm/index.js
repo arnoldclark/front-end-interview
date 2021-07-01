@@ -10,28 +10,48 @@ export const CarForm = () => {
             <label htmlFor="make" className="ch-form__control-label">
               Make
             </label>
-            <input type="text" name="make" className="ch-form__control" />
+            <input
+              id="make"
+              type="text"
+              name="make"
+              className="ch-form__control"
+            />
           </div>
 
           <div className="ch-form__group ch-width--5">
-            <label htmlFor="make" className="ch-form__control-label">
+            <label htmlFor="model" className="ch-form__control-label">
               Model
             </label>
-            <input type="text" name="model" className="ch-form__control" />
+            <input
+              id="model"
+              type="text"
+              name="model"
+              className="ch-form__control"
+            />
           </div>
 
           <div className="ch-form__group ch-width--5 ch-mr--4">
-            <label htmlFor="make" className="ch-form__control-label">
+            <label htmlFor="reg" className="ch-form__control-label">
               Registration
             </label>
-            <input type="text" name="model" className="ch-form__control" />
+            <input
+              id="reg"
+              type="text"
+              name="reg"
+              className="ch-form__control"
+            />
           </div>
 
           <div className="ch-form__group ch-width--5">
-            <label htmlFor="make" className="ch-form__control-label">
+            <label htmlFor="price" className="ch-form__control-label">
               Price
             </label>
-            <input type="text" name="price" className="ch-form__control" />
+            <input
+              id="price"
+              type="text"
+              name="price"
+              className="ch-form__control"
+            />
           </div>
         </div>
 
