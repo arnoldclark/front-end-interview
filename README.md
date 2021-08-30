@@ -21,7 +21,7 @@ We're aiming to make something like this - although final results usually vary!
 
 ### Taking part in the session
 
-You'll be joined on the call by a couple of front-end engineers from Arnold Clark. They'll take turns - around 20 minutes each - to take control of the machine and write some code
+You'll be joined on the call by a couple of front-end engineers from Arnold Clark. They'll take turns - around 20 minutes each - to take control of the machine and write some code.
 
 If you would like to "drive" the machine, we have a couple of options:
 
