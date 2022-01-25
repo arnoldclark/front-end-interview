@@ -1,5 +1,6 @@
 {
   "name": "mob-programming",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,23 +15,24 @@
     "test": "jest"
   },
   "dependencies": {
-    "json-server": "^0.16.3",
+    "json-server": "^0.17.0",
+    "parcel": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "@babel/preset-react": "^7.14.5",
-    "@testing-library/react": "^12.0.0",
-    "babel-jest": "^27.0.2",
-    "eslint": "^7.28.0",
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "jest": "^27.0.4",
-    "parcel-bundler": "^1.12.5",
-    "prettier": "^2.3.1"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1"
   },
   "jest": {
     "testEnvironment": "jsdom"
