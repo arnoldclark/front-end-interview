@@ -1,6 +1,4 @@
-**Please don't write any code before the mob session. We value your time and this startpoint is being provided to take away the element of surprise from the session.**
-
-## The aims of this session
+# Option 1: Mob Programming
 
 This session is intended to help us understand how you would approach a very common problem.
 
@@ -16,6 +14,8 @@ We're aiming to make something like this - although final results usually vary!
 ![Arnold Clark Garage](/src/static/images/garage.gif "Arnold Clark Garage")
 
 ### Taking part in the session
+
+**Please don't write any code before the mob session. We value your time and this startpoint is being provided to take away the element of surprise from the session.**
 
 You'll be joined on the call by a couple of front-end engineers from Arnold Clark. They'll take turns - around 20 minutes each - to take control of the machine and write some code.
 
