@@ -46,4 +46,4 @@ We also want to be transparent about the skills and traits we're looking for.
 
 We're always looking to improve our interview process and we welcome feedback.
 
-You can also open a [pull request](https://github.com/arnoldclark/front-end-mob-programming/pulls) [file an issue](https://github.com/arnoldclark/front-end-mob-programming/issues) if there's a change you think we should make!
+You can also open a [pull request](https://github.com/arnoldclark/front-end-mob-programming/pulls) or [file an issue](https://github.com/arnoldclark/front-end-mob-programming/issues) if there's a change you think we should make!
