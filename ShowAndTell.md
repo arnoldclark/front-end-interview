@@ -17,12 +17,11 @@ There are several other considerations:
 
 When we start the interview, we'll ask you to run the application, and share your screen. We'll then ask you for a quick demo of the codebase.
 
-We'll also ask you to share a link to the codebase so that we can go through it in a bit more detail.
+We'll also ask you to share a link to the codebase so that we can go through it in some detail.
 
 We'll discuss some of the following points, depending on your experience level:
 
-- How did you decide what the user's needs were prior to building the app?
-- How did you make sure you met their needs?
+- How did you decide what the user's needs were prior to building the app? How did you make sure you met their needs?
 - How did you structure the app?
 - How did you deploy the app?
 - What problems would you anticipate in the codebase if you were to scale the app?
