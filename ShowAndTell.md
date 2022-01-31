@@ -34,4 +34,6 @@ We'll discuss some of the following points, depending on your experience level:
 
 You don't need to show us a perfect app; if there are elements that don't quite work properly, or code that you would write differently, that's absolutely fine. Self-reflection and continuous learning are important to us.
 
+It's also OK if it's code you wrote a little while ago. Tell us what you've learned in the meantime and how you might do it differently now!
+
 You can also read more about [who we are looking for](WhoAreWeLookingFor.md).
