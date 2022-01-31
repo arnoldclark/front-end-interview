@@ -1,8 +1,8 @@
 # Hello, we're excited to meet you!
 
-Thanks for taking the time to apply for the role of Front-End Engineer at Arnold Clark! In this part of the interview process, we're looking to assess your technical skills so that we can see how you might fit into our organisation.
+Thanks for taking the time to apply for the role of Front-End Engineer at Arnold Clark. In this part of the interview process, we're looking to assess your technical skills so that we can see how you might fit into our organisation.
 
-## Inclusivity
+## Before we start
 
 We want this to be an enjoyable and comfortable experience for you, and we want the interview process to be a partnership between us.
 

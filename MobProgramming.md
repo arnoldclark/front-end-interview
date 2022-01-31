@@ -45,5 +45,5 @@ We've set up some things to get started:
 
 - A minimal React / Parcel app
 - A `CarForm` component with inputs for make, model, registration, and price
-- An API, which uses [json-server](https://github.com/typicode/json-server). (Check out ./requests.http to get started)
+- An API, which uses [json-server](https://github.com/typicode/json-server). (Check out [`./requests.http`](https://github.com/arnoldclark/front-end-mob-programming/blob/main/requests.http) to get started)
 - [Chassis](https://arnoldclark.github.io/chassis/), our CSS framework. (We'll help you with this, of course!)
