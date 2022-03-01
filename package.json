@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "json-server": "^0.17.0",
-    "parcel": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -25,8 +24,8 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@testing-library/react": "^12.1.2",
-    "babel-loader": "^8.2.3",
     "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
     "copy-webpack-plugin": "^10.2.4",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
