@@ -32,7 +32,7 @@ To run this app:
 
 - First, run `npm install`
 - Then, start the API by running `npm run start:api`
-- You can then start the app by running `npm start` and visiting [localhost:1234](http://localhost:1234).
+- You can then start the app by running `npm start` and visiting [localhost:8080](http://localhost:8080).
 - You can run tests with `npm test`; these are set up with [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 ## Resources
@@ -43,7 +43,7 @@ You can also use any libraries you want - we would love to find out what your us
 
 We've set up some things to get started:
 
-- A minimal React / Parcel app
+- A minimal React / Webpack app
 - A `CarForm` component with inputs for make, model, registration, and price
 - An API, which uses [json-server](https://github.com/typicode/json-server). (Check out [`./requests.http`](https://github.com/arnoldclark/front-end-mob-programming/blob/main/requests.http) to get started)
 - [Chassis](https://arnoldclark.github.io/chassis/), our CSS framework. (We'll help you with this, of course!)
