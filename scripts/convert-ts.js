@@ -16,10 +16,14 @@ const listDir = (dir, fileList = []) => {
         let name = file.split(".")[0].replace(/\s/g, "_") + ".tsx";
         let src = path.join(dir, file);
         let newSrc = path.join(dir, name);
-        fileList.push({
-          oldSrc: src,
-          newSrc: newSrc,
-        });
+
+        if (src !== "src/index.js") {
+          fileList.push({
+            oldSrc: src,
+            newSrc: newSrc,
+          });
+        }
+
       }
     }
   });
