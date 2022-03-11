@@ -23,7 +23,6 @@ const listDir = (dir, fileList = []) => {
             newSrc: newSrc,
           });
         }
-
       }
     }
   });
@@ -34,6 +33,6 @@ const listDir = (dir, fileList = []) => {
 let foundFiles = listDir("./src");
 
 foundFiles.forEach((f) => {
-  console.log(`Renaming ${f.oldSrc} to ${f.newSrc}`);
+  console.log(`🔀 Renaming ${f.oldSrc} to ${f.newSrc}`);
   fs.renameSync(f.oldSrc, f.newSrc);
 });
