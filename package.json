@@ -10,13 +10,11 @@
   "scripts": {
     "clean": "rm dist/bundle.js",
     "start:api": "json-server --watch ./json_server/cars.json",
-    "start": "parcel src/index.html",
-    "build-prod": "parcel build src/index.html",
+    "start": "webpack serve --open",
     "test": "jest"
   },
   "dependencies": {
     "json-server": "^0.17.0",
-    "parcel": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -27,12 +25,19 @@
     "@babel/preset-react": "^7.16.7",
     "@testing-library/react": "^12.1.2",
     "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.4",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
+    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-tags-plugin": "^3.0.2",
     "jest": "^27.4.7",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   },
   "jest": {
     "testEnvironment": "jsdom"
