@@ -26,6 +26,14 @@ If you would like to "drive" the machine, we have a couple of options:
 
 If you would prefer not to drive the machine, that's perfectly fine. It won't have an impact on your application.
 
+### Language
+
+You can choose to use either TypeScript or JavaScript for this task. 
+
+TypeScript is set up, so if you would like to use it, just rename any files using TypeScript to .ts or .tsx. You can place any types in `/src/types` and they will be available without needing to be imported.
+
+If you would like to use JavaScript, no changes are needed.
+
 ## Getting Started
 
 To run this app:
