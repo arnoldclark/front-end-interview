@@ -1,0 +1,14 @@
+// Select the database to use.
+use('acgarage');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+db.branches.drop();
+
+// Insert a few documents into the cars collection.
+db.branches.insertMany([
+  { name: "Glasgow Vauxhall North" },
+  { name: "Glasgow Alexandra Parade Hyundai" },
+  { name: "Glasgow Shields Road" },
+  { name: "Glasgow Seat / CUPRA" },
+]);

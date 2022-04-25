@@ -9,13 +9,19 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start:api": "json-server --watch ./json_server/cars.json",
-    "start": "webpack serve --open",
+    "start:api": "nodemon server/server.js",
+    "start:client": "cd client && webpack serve --open",
+    "start": "concurrently \"npm run start:api\" \"npm run start:client\"",
     "test": "jest",
-    "convert-ts": "node ./scripts/convert-ts.js"
+    "convert-ts": "node ./client/scripts/convert-ts.js"
   },
   "dependencies": {
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
     "json-server": "^0.17.0",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
