@@ -7,8 +7,8 @@ db.branches.drop();
 
 // Insert a few documents into the cars collection.
 db.branches.insertMany([
-  { name: "Glasgow Vauxhall North" },
-  { name: "Glasgow Alexandra Parade Hyundai" },
-  { name: "Glasgow Shields Road" },
-  { name: "Glasgow Seat / CUPRA" },
+  { name: "Glasgow Vauxhall North", telephone: "0141 422 2820" },
+  { name: "Glasgow Alexandra Parade Hyundai",  telephone: "0141 422 2780"},
+  { name: "Glasgow Shields Road", telephone: "0141 739 0704" },
+  { name: "Glasgow Seat / CUPRA", telephone: "0141 559 4800" },
 ]);

@@ -1,14 +1,17 @@
 import React from "react";
-import { Navbar } from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { BranchList } from "./pages/BranchList";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-
-      <div className="ch-container ch-mt--4">
-        <p>Let&apos;s get started!</p>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/branches" element={<BranchList />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
