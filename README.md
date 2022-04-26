@@ -15,10 +15,10 @@ Your mentors, and everyone working at the hack day, are here to guide you throug
 You have been asked to write a feature to allow users to view a list of cars, and add a new car to the list. Each car should have the following properties:
 
 ```
-  make: string
-  model: string
-  price: number
-  registration: string
+make: string
+model: string
+price: number
+registration: string
 ```
 
 The application uses the following technologies:
