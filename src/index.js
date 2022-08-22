@@ -1,9 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import App from "./App";
 
-const body = document.querySelector("body");
-const mountNode = document.createElement("div");
-body.appendChild(mountNode);
+const container = document.createElement("div", { id: "app" });
+document.body.append(container);
 
-ReactDOM.render(<App />, mountNode);
+const root = createRoot(container);
+root.render(<App />);
