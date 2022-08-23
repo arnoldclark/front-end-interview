@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "json-server": "^0.17.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -35,7 +35,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "html-webpack-plugin": "^5.5.0",
-    "html-webpack-tags-plugin": "^3.0.2",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "ts-loader": "^9.2.6",

@@ -2,7 +2,6 @@ const path = require("path");
 
 const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const HtmlWebpackTagsPlugin = require("html-webpack-tags-plugin");
 
 module.exports = {
   mode: "development",
@@ -13,11 +12,7 @@ module.exports = {
       patterns: [{ from: "./src/static/css/chassis.css", to: "chassis.css" }],
     }),
     new HtmlWebpackPlugin({
-      title: "Arnold Clark Garage",
-    }),
-    new HtmlWebpackTagsPlugin({
-      tags: "./chassis.css",
-      append: true,
+      template: path.resolve(__dirname, "./src/index.html"),
     }),
   ],
   output: {
