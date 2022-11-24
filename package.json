@@ -9,7 +9,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start:api": "json-server --watch ./json_server/cars.json",
+    "start:api": "json-server --watch ./json_server/cars.json --port=3001",
     "start": "webpack serve --open",
     "test": "jest",
     "convert-ts": "node ./scripts/convert-ts.js"
