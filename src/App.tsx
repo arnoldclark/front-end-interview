@@ -1,5 +1,7 @@
 import React from "react";
+import { CarForm } from "./components/CarForm";
 import { Navbar } from "./components/Navbar";
+import { CarList } from "./components/CarList";
 
 const App = () => {
   return (
@@ -7,7 +9,9 @@ const App = () => {
       <Navbar />
 
       <div className="ch-container ch-mt--4">
-        <p>Let&apos;s get started!</p>
+        <CarForm />
+
+        <CarList />
       </div>
     </>
   );
