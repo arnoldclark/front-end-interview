@@ -39,7 +39,6 @@ If you would like to use JavaScript, no changes are needed.
 To run this app:
 
 -   First, run `npm install`
--   Then, start the API by running `npm run start:api`
 -   You can then start the app by running `npm start` and visiting [localhost:8080](http://localhost:8080).
 -   You can run tests with `npm test`; these are set up with [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
