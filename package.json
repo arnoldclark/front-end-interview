@@ -10,11 +10,13 @@
   "scripts": {
     "clean": "rm dist/bundle.js",
     "start:api": "json-server --watch ./json_server/cars.json",
-    "start": "webpack serve --open",
+    "start:frontend": "webpack serve --open",
+    "start": "concurrently npm:start:*",
     "test": "jest",
     "convert-ts": "node ./scripts/convert-ts.js"
   },
   "dependencies": {
+    "concurrently": "^7.6.0",
     "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
