@@ -13,13 +13,19 @@
     "start:frontend": "webpack serve --open",
     "start": "concurrently npm:start:*",
     "test": "jest",
-    "convert-ts": "node ./scripts/convert-ts.js"
+    "convert-ts": "node ./scripts/convert-ts.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "webpack"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.24.6",
+    "@tanstack/react-query-devtools": "^4.24.6",
     "concurrently": "^7.6.0",
     "json-server": "^0.17.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -27,6 +33,15 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/react": "^13.4.0",
     "@types/react": "^17.0.39",
     "babel-jest": "^27.4.6",
@@ -36,6 +51,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-storybook": "^0.6.10",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",

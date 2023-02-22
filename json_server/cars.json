@@ -20,6 +20,13 @@
       "model": "Panda",
       "reg": "CU64 PLZ",
       "price": 3998
+    },
+    {
+      "make": "Ford",
+      "model": "Fiesta",
+      "reg": "A1",
+      "price": 9999,
+      "id": 4
     }
   ]
 }
