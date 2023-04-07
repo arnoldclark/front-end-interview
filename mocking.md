@@ -6,10 +6,10 @@ Let's use mocking to make these tests pass.
 
 ## Part 1: 
 
-Let's start with the <CarList /> component, which pulls in a list of cars from the API.
+Let's start with the `<CarList />` component, which pulls in a list of cars from the API.
 
-/src/components/CarList/index.tsx
-/src/components/CarList/index.test.tsx
+- /src/components/CarList/index.tsx
+- /src/components/CarList/index.test.tsx
 
 Our test is failing because the `getCars` function relies on `fetch`. We have a few options:
 
@@ -20,10 +20,10 @@ Our test is failing because the `getCars` function relies on `fetch`. We have a 
 
 ## Part 2
 
-Let's turn our attention to the <CarForm /> component now. 
+Let's turn our attention to the `<CarForm />` component now. 
 
-/src/components/CarForm/index.tsx
-/src/components/CarForm/index.test.tsx
+- /src/components/CarForm/index.tsx
+- /src/components/CarForm/index.test.tsx
 
 This component sends a new car object to the API, through the `postNewCar` function. We're still struggling with the call to `fetch`, which needs to be mocked out. But this time, we also want to check that `postNewCar` has been called with an object matching the user's input.
 
