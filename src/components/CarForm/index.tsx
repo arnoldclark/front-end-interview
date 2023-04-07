@@ -1,10 +1,35 @@
-import React from "react";
+import * as React from "react";
+import { postNewCar } from "../../services/cars";
+import { ICar } from "../CarList";
 
 export const CarForm = () => {
+  const [formState, setFormState] = React.useState<
+    Omit<ICar, "id" | "price"> & { price: string }
+  >({
+    make: "",
+    model: "",
+    reg: "",
+    price: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    setFormState((formState) => ({
+      ...formState,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    postNewCar({ ...formState, price: +formState.price });
+  };
+
   return (
     <div className="ch-pa--3 ch-mt--4 ch-bg--white ch-ba--1 ch-rounded ch-bc--grey-3 ch-shadow--sm">
       <h1>Add new car</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="ch-display--flex ch-flex-flow--row-wrap ch-mb--4">
           <div className="ch-form__group ch-width--5 ch-mr--4">
             <label htmlFor="make" className="ch-form__control-label">
@@ -15,6 +40,8 @@ export const CarForm = () => {
               type="text"
               name="make"
               className="ch-form__control"
+              onChange={handleChange}
+              value={formState.make}
             />
           </div>
 
@@ -27,6 +54,8 @@ export const CarForm = () => {
               type="text"
               name="model"
               className="ch-form__control"
+              onChange={handleChange}
+              value={formState.model}
             />
           </div>
 
@@ -39,6 +68,8 @@ export const CarForm = () => {
               type="text"
               name="reg"
               className="ch-form__control"
+              onChange={handleChange}
+              value={formState.reg}
             />
           </div>
 
@@ -51,6 +82,8 @@ export const CarForm = () => {
               type="text"
               name="price"
               className="ch-form__control"
+              onChange={handleChange}
+              value={formState.price}
             />
           </div>
         </div>

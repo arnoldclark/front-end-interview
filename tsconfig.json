@@ -7,7 +7,7 @@
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
-    "typeRoots": ["/src/types"],
+    "types": ["jest", "node"],
     "allowSyntheticDefaultImports": true
   }
 }
