@@ -13,10 +13,10 @@ Let's start with the `<CarList />` component, which pulls in a list of cars from
 
 Our test is failing because the `getCars` function relies on `fetch`. We have a few options:
 
-1a) Use `jest.mock` and `jest.fn` in our test file to mock out `getCars`
-1b) Use a manual mock (the `__mocks__` folder) to mock out the module
-1c) Use `jest.fn` to mock out `fetch`.
-1d) Give up and mock out our network request with MSW instead 😂
+1. Use `jest.mock` and `jest.fn` in our test file to mock out `getCars` <br />
+2. Use a manual mock (the `__mocks__` folder) to mock out the module <br />
+3. Use `jest.fn` to mock out `fetch`. <br />
+4. Give up and mock out our network request with MSW instead 😂
 
 ## Part 2
 
@@ -29,7 +29,7 @@ This component sends a new car object to the API, through the `postNewCar` funct
 
 Again, we have a few options:
 
-2a) Use `jest.mock` and `jest.fn` in our test file to mock out `postNewCar`
-2b) Use a manual mock (the `__mocks__` folder) to mock out the module
+1. Use `jest.mock` and `jest.fn` in our test file to mock out `postNewCar`
+2. Use a manual mock (the `__mocks__` folder) to mock out the module
 
 This time, we won't be able to mock out fetch, as we want to spy on the function call!
