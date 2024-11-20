@@ -11,7 +11,7 @@ This session is run as a [mob programming session](https://en.wikipedia.org/wiki
 
 We're aiming to make something like this - although final results usually vary!
 
-![Arnold Clark Garage](/src/static/images/garage.gif "Arnold Clark Garage")
+![Arnold Clark Garage](/garage.gif "Arnold Clark Garage")
 
 ### Taking part in the session
 
