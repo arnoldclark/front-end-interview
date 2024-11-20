@@ -42,6 +42,6 @@ You can also use any libraries you want - we would love to find out what your us
 
 We've set up some things to get started:
 
-- A minimal Next JS app in TypeScript
+- A minimal [Next JS](https://nextjs.org/) app in TypeScript
 - A `CarForm` component with inputs for make, model, registration, and price
 - [Chassis](https://arnoldclark.github.io/chassis/), our CSS framework. (We'll help you with this, of course!)
