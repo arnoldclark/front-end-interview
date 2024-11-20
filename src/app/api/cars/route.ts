@@ -1,4 +1,12 @@
-{
+export type Car = {
+  id: number;
+  make: string;
+  model: string;
+  reg: string;
+  price: number;
+}
+
+const response: {cars: Car[]} = {
   "cars": [
     {
       "id": 1,
@@ -22,4 +30,8 @@
       "price": 3998
     }
   ]
+}
+
+export async function GET() {
+  return Response.json(response);
 }

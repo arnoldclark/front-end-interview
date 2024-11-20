@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should match the snapshot 1`] = `
+exports[`Navbar matches snapshot 1`] = `
 <div>
   <header
     class="ch-navbar"
@@ -18,18 +18,11 @@ exports[`App should match the snapshot 1`] = `
             class="ch-navbar__title"
             href="/"
           >
-            Arnold Clark Garage
+            hello there
           </a>
         </div>
       </div>
     </div>
   </header>
-  <div
-    class="ch-container ch-mt--4"
-  >
-    <p>
-      Let's get started!
-    </p>
-  </div>
 </div>
 `;
