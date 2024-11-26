@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match the snapshot 1`] = `
+<div>
+  <header
+    class="ch-navbar"
+  >
+    <div
+      class="ch-container"
+    >
+      <div
+        class="ch-row"
+      >
+        <div
+          class="xs:ch-col--12 sm:ch-col--3"
+        >
+          <a
+            class="ch-navbar__title"
+            href="/"
+          >
+            Arnold Clark Garage
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="ch-container ch-mt--4"
+  >
+    <p>
+      Let's get started!
+    </p>
+  </div>
+</div>
+`;
