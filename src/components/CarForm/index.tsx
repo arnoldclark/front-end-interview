@@ -1,5 +1,3 @@
-import React from "react";
-
 export const CarForm = () => {
   return (
     <div className="ch-pa--3 ch-mt--4 ch-bg--white ch-ba--1 ch-rounded ch-bc--grey-3 ch-shadow--sm">

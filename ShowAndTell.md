@@ -15,7 +15,9 @@ There are several other considerations:
 
 ## About the session
 
-When we start the interview, we'll ask you to run the application, and share your screen. We'll then ask you for a quick demo of the codebase.
+If your interview is remote, we'll ask you to run the application, and share your screen. We'll then ask you for a quick demo of the codebase.
+
+If your interview is in-person, please bring your laptop, with the app set up and running.
 
 We'll also ask you to share a link to the codebase so that we can go through it in some detail.
 

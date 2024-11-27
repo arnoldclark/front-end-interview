@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Navbar = () => (
   <header className="ch-navbar">
     <div className="ch-container">
