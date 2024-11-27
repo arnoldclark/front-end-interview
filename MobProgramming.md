@@ -32,7 +32,7 @@ To run this app:
 
 - First, run `npm install`
 - You can then start the app by running `npm start` and visiting [localhost:5173](http://localhost:5173).
-- You can run tests with `npm test`; these are set up with [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+- You can run tests with `npm test`; these are set up with [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 ## Resources
 
